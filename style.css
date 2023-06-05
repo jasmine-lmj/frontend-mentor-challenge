@@ -36,18 +36,19 @@ body{
 }
 
 .textContainer{
-    width:88%;
+    width:90%;
     text-align: center;
 }
 
 h1{
     color:hsl(218, 44%, 22%);
-    font-size:1.2rem
+    font-size:1.4rem;
+    
 }
 
 p{
     color:hsl(220, 15%, 55%);
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* attribution styling */
