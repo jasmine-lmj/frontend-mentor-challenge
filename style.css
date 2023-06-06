@@ -25,8 +25,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .image{
@@ -43,7 +42,6 @@ body{
 h1{
     color:hsl(218, 44%, 22%);
     font-size:1.4rem;
-    
 }
 
 p{
@@ -53,14 +51,48 @@ p{
 
 /* attribution styling */
 
-.attribution {
+footer {
     font-size: 1rem;
     text-align: center;
     position: absolute;
     bottom:0;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    display:flex;
+    justify-content: space-between;
 }
 
-.attribution a {
+footer p{
+    color:#000;
+    margin:0 auto;
+}
+
+footer a {
     color: hsl(228, 45%, 44%);
+}
+
+/* media query */
+@media(min-width: 1440px){
+
+}
+
+@media(max-width:375px){
+h1{
+    font-size: 1.3rem;
+}
+p{
+    font-size:1rem;
+}
+    .contentContainer{
+    width:85%;
+}
+.textContainer{
+    width:92%;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+}
+footer p {
+    margin:0 auto;
+}
 }
